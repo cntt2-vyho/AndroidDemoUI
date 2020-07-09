@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#000"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What type of coffee?"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:background="#b33939"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:buttonTint="#fff"
+                android:textSize="20dp"
+                android:text="Decaf" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:checked="true"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:buttonTint="#fff"
+
+                android:text="Espresso" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:buttonTint="#fff"
+                android:textSize="20dp"
+                android:text="Columbian" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What else in your Coffee?"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:background="#b33939"
+            android:textColor="#fff" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:buttonTint="#fff"
+            android:textSize="25dp"
+            android:text="Cream" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:buttonTint="#fff"
+            android:textSize="25dp"
+            android:text="Sugar" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="20px"
+            android:text="Pay" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
